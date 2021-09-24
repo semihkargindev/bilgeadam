@@ -1,0 +1,187 @@
+USE [master]
+GO
+/****** Object:  Database [World_Locations]    Script Date: 24.09.2021 13:49:39 ******/
+CREATE DATABASE [World_Locations]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'World_Locations', FILENAME = N'/var/opt/mssql/data/World_Locations.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'World_Locations_log', FILENAME = N'/var/opt/mssql/data/World_Locations_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+GO
+ALTER DATABASE [World_Locations] SET COMPATIBILITY_LEVEL = 140
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [World_Locations].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [World_Locations] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [World_Locations] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [World_Locations] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [World_Locations] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [World_Locations] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [World_Locations] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [World_Locations] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [World_Locations] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [World_Locations] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [World_Locations] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [World_Locations] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [World_Locations] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [World_Locations] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [World_Locations] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [World_Locations] SET  DISABLE_BROKER 
+GO
+ALTER DATABASE [World_Locations] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [World_Locations] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [World_Locations] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [World_Locations] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [World_Locations] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [World_Locations] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [World_Locations] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [World_Locations] SET RECOVERY FULL 
+GO
+ALTER DATABASE [World_Locations] SET  MULTI_USER 
+GO
+ALTER DATABASE [World_Locations] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [World_Locations] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [World_Locations] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [World_Locations] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [World_Locations] SET DELAYED_DURABILITY = DISABLED 
+GO
+EXEC sys.sp_db_vardecimal_storage_format N'World_Locations', N'ON'
+GO
+ALTER DATABASE [World_Locations] SET QUERY_STORE = OFF
+GO
+USE [World_Locations]
+GO
+/****** Object:  Table [dbo].[City]    Script Date: 24.09.2021 13:49:39 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[City](
+	[CityId] [int] IDENTITY(1,1) NOT NULL,
+	[CityName] [nvarchar](120) NOT NULL,
+	[CityFaceMeasurement] [nvarchar](120) NULL,
+	[CityPlateCode] [nvarchar](10) NULL,
+	[CountryId] [int] NOT NULL,
+	[CreateDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_City] PRIMARY KEY CLUSTERED 
+(
+	[CityId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Country]    Script Date: 24.09.2021 13:49:39 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Country](
+	[CountryId] [int] IDENTITY(1,1) NOT NULL,
+	[CountryName] [nvarchar](120) NOT NULL,
+	[CountryFaceMeasurement] [nvarchar](15) NULL,
+	[CountryArea] [nvarchar](120) NULL,
+	[CountryCurrency] [nvarchar](120) NULL,
+	[CountryPopulation] [nvarchar](120) NULL,
+	[CountryPhoneCode] [nvarchar](5) NULL,
+	[CreateDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_Country] PRIMARY KEY CLUSTERED 
+(
+	[CountryId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[District]    Script Date: 24.09.2021 13:49:39 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[District](
+	[DistrictId] [int] IDENTITY(1,1) NOT NULL,
+	[DistrictName] [nvarchar](120) NOT NULL,
+	[DistrictFaceMeasurement] [nvarchar](15) NULL,
+	[CityId] [int] NOT NULL,
+	[CreateDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_District] PRIMARY KEY CLUSTERED 
+(
+	[DistrictId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Neighbourhood]    Script Date: 24.09.2021 13:49:39 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Neighbourhood](
+	[NeighbourhoodId] [int] IDENTITY(1,1) NOT NULL,
+	[NeighbourhoodName] [nvarchar](120) NOT NULL,
+	[NeighbourhoodFaceMeasurement] [nvarchar](15) NULL,
+	[NeighbourhoodPopulation] [nvarchar](10) NULL,
+	[DistrictId] [int] NOT NULL,
+	[CreateDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_Neighbourhood] PRIMARY KEY CLUSTERED 
+(
+	[NeighbourhoodId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[City] ADD  CONSTRAINT [DF_City_CreateDate]  DEFAULT (getdate()) FOR [CreateDate]
+GO
+ALTER TABLE [dbo].[Country] ADD  CONSTRAINT [DF_Country_CreateDate]  DEFAULT (getdate()) FOR [CreateDate]
+GO
+ALTER TABLE [dbo].[District] ADD  CONSTRAINT [DF_District_CreateDate]  DEFAULT (getdate()) FOR [CreateDate]
+GO
+ALTER TABLE [dbo].[Neighbourhood] ADD  CONSTRAINT [DF_Neighbourhood_CreateDate]  DEFAULT (getdate()) FOR [CreateDate]
+GO
+ALTER TABLE [dbo].[City]  WITH CHECK ADD  CONSTRAINT [FK_City_Country] FOREIGN KEY([CountryId])
+REFERENCES [dbo].[Country] ([CountryId])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[City] CHECK CONSTRAINT [FK_City_Country]
+GO
+ALTER TABLE [dbo].[District]  WITH CHECK ADD  CONSTRAINT [FK_District_City] FOREIGN KEY([CityId])
+REFERENCES [dbo].[City] ([CityId])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[District] CHECK CONSTRAINT [FK_District_City]
+GO
+ALTER TABLE [dbo].[Neighbourhood]  WITH CHECK ADD  CONSTRAINT [FK_Neighbourhood_District] FOREIGN KEY([DistrictId])
+REFERENCES [dbo].[District] ([DistrictId])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[Neighbourhood] CHECK CONSTRAINT [FK_Neighbourhood_District]
+GO
+USE [master]
+GO
+ALTER DATABASE [World_Locations] SET  READ_WRITE 
+GO

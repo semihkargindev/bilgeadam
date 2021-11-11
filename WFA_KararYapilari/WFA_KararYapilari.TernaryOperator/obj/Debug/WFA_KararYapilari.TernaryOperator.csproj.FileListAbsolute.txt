@@ -1,0 +1,15 @@
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\bin\Debug\WFA_KararYapilari.TernaryOperator.exe.config
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\bin\Debug\WFA_KararYapilari.TernaryOperator.exe
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\bin\Debug\WFA_KararYapilari.TernaryOperator.pdb
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\bin\Debug\MetroFramework.Design.dll
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\bin\Debug\MetroFramework.dll
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.csproj.AssemblyReference.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.csproj.SuggestedBindingRedirects.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.Form1.resources
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.Properties.Resources.resources
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.csproj.GenerateResource.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.csproj.CoreCompileInputs.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.csproj.CopyComplete
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.exe
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.TernaryOperator\obj\Debug\WFA_KararYapilari.TernaryOperator.pdb

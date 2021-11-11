@@ -1,0 +1,11 @@
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\bin\Debug\WFA_KararYapilari.SwitchCase.exe.config
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\bin\Debug\WFA_KararYapilari.SwitchCase.exe
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\bin\Debug\WFA_KararYapilari.SwitchCase.pdb
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\obj\Debug\WFA_KararYapilari.SwitchCase.csproj.AssemblyReference.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\obj\Debug\WFA_KararYapilari.SwitchCase.csproj.SuggestedBindingRedirects.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\obj\Debug\WFA_KararYapilari.SwitchCase.Form1.resources
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\obj\Debug\WFA_KararYapilari.SwitchCase.Properties.Resources.resources
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\obj\Debug\WFA_KararYapilari.SwitchCase.csproj.GenerateResource.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\obj\Debug\WFA_KararYapilari.SwitchCase.csproj.CoreCompileInputs.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\obj\Debug\WFA_KararYapilari.SwitchCase.exe
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.SwitchCase\obj\Debug\WFA_KararYapilari.SwitchCase.pdb

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ed4b08b0-1b1d-4360-b1f7-d7df6f426da8": {
+      "ProjectGuid": "ed4b08b0-1b1d-4360-b1f7-d7df6f426da8",
+      "DisplayName": "WFA_KararYapilari.IfElse",
+      "ColorIndex": 0
+    },
+    "d243e28a-644e-4b60-b0e6-20de7ecba6a1": {
+      "ProjectGuid": "d243e28a-644e-4b60-b0e6-20de7ecba6a1",
+      "DisplayName": "WFA_KararYapilari.SwitchCase",
+      "ColorIndex": 1
+    },
+    "373ee860-6637-4121-beb0-a56132bec06f": {
+      "ProjectGuid": "373ee860-6637-4121-beb0-a56132bec06f",
+      "DisplayName": "WFA_KararYapilari.TernaryOperator",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

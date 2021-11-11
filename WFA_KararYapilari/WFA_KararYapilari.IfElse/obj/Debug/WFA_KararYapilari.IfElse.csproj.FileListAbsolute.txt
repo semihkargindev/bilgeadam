@@ -1,0 +1,12 @@
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\bin\Debug\WFA_KararYapilari.IfElse.exe.config
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\bin\Debug\WFA_KararYapilari.IfElse.exe
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\bin\Debug\WFA_KararYapilari.IfElse.pdb
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.csproj.AssemblyReference.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.csproj.SuggestedBindingRedirects.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.Form1.resources
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.Properties.Resources.resources
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.csproj.GenerateResource.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.csproj.CoreCompileInputs.cache
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.exe
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.pdb
+C:\Users\semih.SRV\Desktop\BilgeAdam Proje\WFA_KararYapilari\WFA_KararYapilari.IfElse\obj\Debug\WFA_KararYapilari.IfElse.Form2.resources
